@@ -1,0 +1,9 @@
+hosts: [
+  { host_ip: "10.100.198.200", host_name: "dev"},
+  { host_ip: "10.100.193.200", host_name: "proxy"},
+  { host_ip: "10.100.198.201", host_name: "rpi"}
+]
+
+obsolete_services:
+  - puppet
+  - chef-client
